@@ -1,0 +1,99 @@
+.navbar {
+  padding: 1rem;
+  background-image: url("http://www.omafra.gov.on.ca/IPM/images/potatoes/diseases/common-scab/potato_common-scab_04_zoom.jpg");
+  text-decoration: underline;
+  font-weight: lighter;
+  font-size: 50px;
+  font-family:monospace;
+}
+
+.nav-1 {
+  text-decoration: overline;
+  font-weight: bold;
+  font-size: 50px;
+  font-family:cursive;
+}
+
+.nav-2 {
+  font-weight: light;
+  font-size: 30px;
+  font-family:sans-serif;
+}
+
+.nav-3 {
+  text-decoration: overline;
+  font-weight: light;
+  font-size: 60px;
+  font-family:fantasy;
+}
+
+.ugh {
+  font-size: 25px;
+  background-image: linear-gradient(skyblue, white);
+  line-height: 75px;
+  color: #ffff;
+}
+
+.grow {
+  margin: 50px auto;
+  width: 500px;
+  height: 150px;
+  text-align: left;
+  font-size: 25px;
+  transition: .3s ease;
+}
+
+.grow:hover {
+  color: #66c1e5;
+  transform: scale(2.7);
+  -webkit-transform: scale(2.7);
+  -ms-transition: scale(2.7);
+}
+
+.shrink{
+  margin: 50px auto;
+  width: 300px;
+  height: 150px;
+  text-align: left;
+  font-size: 200px;
+  transition: .7s ease;
+}
+
+.shrink:hover {
+  color: skyblue;
+  text-align: right;
+  transform: scale(0.3);
+  -webkit-transform: scale(0.3);
+  -ms-transition: scale(0.3);
+}
+
+.buy-me {
+  position: relative;
+  color: green;
+  background-color: grey;
+  top: 50px;
+  bottom: 100px;
+  left: 30px;
+  width: 150px;
+  height: 100px;
+  -webkit-transition: all 0.5s ease-out;
+}
+
+.buy-me:hover {
+  top: 0px;
+  left: 1000px;
+}
+
+.bg-black {
+    background-image: linear-gradient(white, black);
+}
+
+.hinge-click {
+  margin: 75px;
+  color: blue;
+  border-radius: 50px;
+}
+
+.wobble {
+  font-size: 75px;
+}
